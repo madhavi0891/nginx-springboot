@@ -168,7 +168,7 @@ readinessProbe:
 service:
   ## Service type
   ##
-  type: NodePort
+  type: LoadBalancer
 
   ## HTTP Port
   ##
